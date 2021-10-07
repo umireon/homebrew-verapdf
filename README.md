@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install umireon/verapdf/<formula>`
+`brew install umireon/verapdf/verapdf`
 
-Or `brew tap umireon/verapdf` and then `brew install <formula>`.
+Or `brew tap umireon/verapdf` and then `brew install verapdf`.
 
 ## Documentation
 
