@@ -6,9 +6,9 @@ class Verapdf < Formula
   license any_of: ["GPL-3.0-or-later", "MPL-2.0"]
 
   bottle do
-    root_url "https://github.com/umireon/homebrew-verapdf/releases/download/verapdf-1.19.206"
-    sha256 cellar: :any_skip_relocation, catalina:     "c314ca8a7146361f0f92c3cb77e6540525f50afe1cb973791f318b17359bd5f0"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "1be6da77fafd41a891441b62e11ec2f7654745d155489ff1e9c13ed665967d25"
+    root_url "https://github.com/umireon/homebrew-verapdf/releases/download/verapdf-1.19.217"
+    sha256 cellar: :any_skip_relocation, catalina:     "ea051e88c5ee7bf2bcc800d36f5736ad471bb3e1d4afc83b150b18a35b5c1c34"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "67e8d25922d7498862d04229399d3f665a96c484d7417e897af1482b1ab4b3b1"
   end
 
   depends_on "maven" => :build
