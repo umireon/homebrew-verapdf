@@ -7,8 +7,9 @@ class Verapdf < Formula
 
   bottle do
     root_url "https://github.com/umireon/homebrew-verapdf/releases/download/verapdf-1.21.86"
-    sha256 cellar: :any_skip_relocation, big_sur:      "1b9f696f3da38c2a39d3417fba04e8e87952a11dd7c7dc3334c906c55241abcf"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "f141d8d08de6d15277ee96174168a83d9ed7ce1e61975535544f8e0c911a2646"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "b278e87f116b9d65874dfe9035f841687fbf350efc5512765bc54977dc1b5467"
+    sha256 cellar: :any_skip_relocation, big_sur:        "1b9f696f3da38c2a39d3417fba04e8e87952a11dd7c7dc3334c906c55241abcf"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:   "f141d8d08de6d15277ee96174168a83d9ed7ce1e61975535544f8e0c911a2646"
   end
 
   depends_on "maven" => :build
