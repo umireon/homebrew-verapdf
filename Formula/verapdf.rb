@@ -1,8 +1,8 @@
 class Verapdf < Formula
   desc "Industry supported, open source PDF/A validation GUI and CUI"
   homepage "https://software.verapdf.org/"
-  url "https://github.com/veraPDF/veraPDF-apps/archive/refs/tags/v1.19.217.tar.gz"
-  sha256 "3c8bdb9316191512b2eb884ac68f94d777b48acef56dcc3d9f18b453fa88211f"
+  url "https://github.com/veraPDF/veraPDF-apps/archive/refs/tags/v1.21.86.tar.gz"
+  sha256 "c55075cc1f807c3841c394d62d4e320ae133d91174f966ea30c54609192f0119"
   license any_of: ["GPL-3.0-or-later", "MPL-2.0"]
 
   bottle do
